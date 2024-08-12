@@ -17,10 +17,21 @@
 
             <div class="row mt-3">
                 <div class="col-md-6">
-                    <p>Calender</p>
+                    <!-- <p>Calender</p> -->
+                    <mat-card class="demo-inline-calendar-card">
+                        <mat-calendar [(selected)]="selected"></mat-calendar>
+                      </mat-card>
                 </div>
                 <div class="col-md-6">
-                    <p>Pie chart</p>
+                    <!-- Pie chart -->
+                    <highcharts-chart
+                    [Highcharts]="Highcharts"     
+                   
+                    [options]="chartOptions"
+
+                  
+                    style="width: 100%; height: 400px; display: block;"
+                  ></highcharts-chart>
                 </div>
             </div>
         </div>
