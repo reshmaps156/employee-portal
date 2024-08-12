@@ -1,0 +1,25 @@
+#sidebar{
+    width: 225px;
+    background-color: rgb(7, 7, 96);
+    height: 90vh;
+}
+#maindiv1{
+    width: 100%;
+    background-color: rgb(14, 191, 191);
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#profile{
+    background-color: rgb(3, 171, 171);
+    height: 400px;
+
+}
+#profileIcon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(1, 74, 74, 0.812);
+    
+}
